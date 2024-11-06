@@ -1,4 +1,5 @@
 body{
+    width: 100vw;
     margin: 0;
     font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
 }
@@ -216,27 +217,31 @@ nav{
     margin: auto;
     overflow: hidden;
     display: flex;
-    gap: 30px;
+    gap: 10px;
+}
+.scroll-container3 div {
+    margin: 0;
 }
 .scroll-container3 div img{
-    width: 440px;
-    height: 600px;
+    width: 330px;
+    height: 500px;
 }
 .scroll-container3 div div{
     text-align: center;
 }
-.scroll-container3 span{
+/* .scroll-container3 span{
     font-size: 1.8vw;
     line-height: 1.125;
     font-weight: 700;
     text-transform: uppercase;
-}
+} */
 .scroll-container3 p{
-    font-size: 1.3vw;
+    font-size: 1.4vw;
     line-height: 1.125;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
-    padding-top: 10px;
+    padding-top: 15px;
+
 }
 .scroll-container3 a{
     align-items: center;
@@ -248,6 +253,301 @@ nav{
     background-color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 8px 20px;
+}
+
+.fenty_puma {
+    position: relative;
+}
+.f1{
+    position: absolute;
+    top: 40%;
+    right: 75%;
+}
+.f1 h1{
+    text-transform: uppercase;
+    font-size: 2.7vw;
+    line-height: 1.1;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+.f1 p {
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    line-height: 1.1;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+.f1 a{
+    text-transform: uppercase;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-weight: 700;
+     color: rgb(0, 0, 0);
+    background-color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-right: 16px;
+}
+
+.rocky_puma {
+    position: relative;
+}
+.r1{
+    position: absolute;
+    top: 38%;
+    left: 68%;
+}
+.r1 h1{
+    text-transform: uppercase;
+    font-size: 2.7vw;
+    line-height: 1.1;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+.r1 p {
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    line-height: 1.1;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+    padding-left: 10%;
+}
+.r1 a{
+    text-transform: uppercase;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-weight: 700;
+     color: rgb(0, 0, 0);
+    background-color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-right: 16px;
+}
+
+.shoes_images{
+    width: 90%;
+    margin: auto;
+}
+/* .kids h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+} */
+.shoes_images .row img{
+    width: 340px;
+    opacity: 1.5;
+}
+.shoes_images .row .col-md-3{
+    position: relative;
+}
+.shoes_images .content{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: 5%;
+    left: 10%;
+    text-align: center;
+}
+.shoes_images .content span{
+    font-size: 2rem;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.shoes_images .row{
+    padding: 3% 0;
+}
+
+.highlights {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.high {
+    position: absolute;
+    top: 40%;
+    left: 44%;
+    text-align: center;
+}
+
+.high h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.highlight_images {
+    padding: 5% 0;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+.highlight_images div {
+    margin: 0;
+}
+.highlight_images div img{
+    width: 350px;
+    height: 500px;
+}
+.highlight_images div div{
+    text-align: center;
+}
+.highlight_images p{
+    font-size: 1.4vw;
+    line-height: 1.125;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 15px;
+
+}
+.highlight_images a{
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-top: 10px;
+}
+.virat_2 {
+    position: relative;
+}
+.v1{
+    position: absolute;
+    top: 40%;
+    right: 75%;
+}
+.v1 h1{
+    text-transform: uppercase;
+    font-size: 2.7vw;
+    line-height: 1.1;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+.v1 p {
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    line-height: 1.1;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+.v1 a{
+    text-transform: uppercase;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-weight: 700;
+     color: rgb(0, 0, 0);
+    background-color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-right: 16px;
+}
+
+.new_season {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.season {
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    text-align: center;
+}
+
+.season h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.tshirts{
+    width: 95%;
+    margin: auto;
+}
+/* .kids h4{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+} */
+.tshirts .row img{
+    width: 360px;
+    opacity: 1.5;
+}
+.tshirts .row .col-md-3{
+    position: relative;
+}
+.tshirts .content{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    bottom: -1%;
+    left: 20%;
+    text-align: center;
+}
+.tshirts .content span{
+    font-size: 2rem;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+.tshirts .content p{
+    font-size: 2rem;
+    font-size: larger;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* text-align: center; */
+}
+.tshirts .row{
+    padding: 3% 0;
+}
+
+.mmq_sport {
+    position: relative;
+}
+.mmq1{
+    position: absolute;
+    top: 38%;
+    left: 42%;
+    text-align: center;
+}
+.mmq1 h1{
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    line-height: 1.1;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+.mmq1 p {
+    text-transform: uppercase;
+    font-size: 1.9rem;
+    line-height: 1.1;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+}
+.mmq1 a{
+    text-transform: uppercase;
+    font-size: 1vw;
+    line-height: 1.5;
+    font-weight: 700;
+     color: rgb(0, 0, 0);
+    background-color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin-right: 16px;
 }
 
 
@@ -481,43 +781,6 @@ nav{
     font-weight: 700;
 }
 
-
-
-
-
-
-
-
-
-.kids{
-    width: 90%;
-    margin: auto;
-}
-.kids h4{
-    text-transform: uppercase;
-    font-weight: 700;
-    text-align: center;
-}
-.kids .row img{
-    width: 340px;
-}
-.kids .row .col-md-3{
-    position: relative;
-}
-.kids .content{
-    position: absolute;
-    color: rgb(255, 255, 255);
-    top: 80%;
-    left: 7%;
-}
-.kids .content span{
-    font-size: 1.2vw;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-.kids .row{
-    padding: 3% 0;
-}
 .recommended{
     width: 90%;
     margin: auto;
